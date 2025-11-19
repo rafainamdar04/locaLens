@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+requests
+pandas
+numpy
+sentence-transformers
+scikit-learn
+pydantic
+loguru
+rapidfuzz
+openai
+pytest
+pytest-asyncio
+langchain
+prometheus-client

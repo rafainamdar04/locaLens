@@ -1,0 +1,260 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTest
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython
+cython_debug/
+
+# Machine Learning / Data
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pb
+*.caffemodel
+*.model
+*.weights
+checkpoints/
+models/*.pkl
+models/*.h5
+models/*.pt
+data/embeddings/
+data/vectors/
+data/cache/
+
+# Logs
+logs/
+*.log
+*.log.*
+log_*.txt
+pipeline_logs.csv
+error_logs.csv
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+config.local.py
+secrets.py
+
+# API Keys & Credentials
+*_key.txt
+*_secret.txt
+*.pem
+*.key
+*.cert
+credentials.json
+token.json
+.credentials/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Large datasets (keep structure, ignore content)
+data/*.csv
+!data/IndiaPostalCodes.csv
+data/raw/
+data/processed/
+data/temp/
+data/backup/
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Compiled translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Package manager
+poetry.lock
+Pipfile.lock
+
+# Testing
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+test-results/
+junit/
+
+# Profiling
+*.prof
+*.lprof
+
+# Node (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Backup files
+*.backup
+*.old
+*_backup.*
+*_old.*
+
+# System files
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore all .npy embedding files but keep the data directory structure
+*.npy
+*.npz
+
+# Keep important config templates
+!config.example.py
+!.env.example
+!requirements.txt
+!README.md

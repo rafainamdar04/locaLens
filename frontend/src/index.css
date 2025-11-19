@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+:root { 
+  color-scheme: light;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html, body, #root { 
+  height: 100%;
+  background-color: #FAF7F0;
+}
+
+/* Earthy Modern buttons */
+.btn-mint {
+  @apply bg-[#4A7C59] text-white rounded-lg px-5 py-3 font-medium transition-all;
+}
+.btn-mint:hover {
+  @apply bg-[#3A5A45];
+}
+
+.btn-terracotta {
+  @apply bg-[#E76F51] text-white rounded-lg px-5 py-3 font-medium transition-all;
+}
+.btn-terracotta:hover {
+  @apply bg-[#D45A46];
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-sm border border-[#E8E0D1];
+}
+
+.badge {
+  @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm font-medium;
+}
